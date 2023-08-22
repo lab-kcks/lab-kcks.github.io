@@ -278,7 +278,7 @@
                             </div>
                             <ul>
                                 <li><a href="https://www.phonic.ai" target="_blank">
-                                    <p class="text-black text-lg sm:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">www.phonic.ai</p>
+                                    <p class="text-black text-lg text-sm sm:text-lg lg:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">www.phonic.ai</p>
                                     </a>
                                 </li>
                                 <li><p></p></li>
@@ -291,12 +291,12 @@
                                 <div class="h-2 justify-start w-1/2 bg-gradient-to-r from-transparent to-[#EED4B5]"></div>
                                 <div class="h-2 justify-end w-1/2 bg-gradient-to-l from-transparent to-[#EED4B5]"></div>
                             </div>
-                            <ul>
-                                <li><p class="text-black text-lg sm:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">Departemen Teknologi Informasi DTI (IT) - FTEIC (ELECTICS) ITS: Gd.
+                            <ul class="space-y-8">
+                                <li><p class="text-black text-sm sm:text-lg lg:text-xl w-auto mt-2 md:mt-3 text-justify leading-5 sm:leading-6 lg:leading-10 font-medium">Departemen Teknologi Informasi DTI (IT) - FTEIC (ELECTICS) ITS: Gd.
                                     Perpustakaan Pusat ITS Lt. 6 - Kampus ITS, Keputih, Kec. Sukolilo, Surabaya, Jawa Timur 60117</p></li>
-                                <li><p class="text-black text-lg sm:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">082257412603</p></li>
-                                <li><p class="text-black text-lg sm:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">lombambaca@gmail.com</p></li>
-                                <li><p class="text-black text-lg sm:text-xl w-auto mt-2 md:mt-3 text-justify leading-10 font-medium">@lomba_mbaca</p></li>
+                                <li><p class="text-black text-sm sm:text-lg lg:text-xl w-auto mt-2 md:mt-3 text-justify leading-5 sm:leading-6 lg:leading-10 font-medium">082257412603</p></li>
+                                <li><p class="text-black text-sm sm:text-lg lg:text-xl w-auto mt-2 md:mt-3 text-justify leading-5 sm:leading-6 lg:leading-10 font-medium">lombambaca@gmail.com</p></li>
+                                <li><p class="text-black text-sm sm:text-lg lg:text-xl w-auto mt-2 md:mt-3 text-justify leading-5 sm:leading-6 lg:leading-10 font-medium">@lomba_mbaca</p></li>
                             </ul>
                         </div>
                     </div>
@@ -307,7 +307,13 @@
           </div>
         
     </div>
-    <script type="module" src="/src/main.js"></script>
+    <script>
+      const button = document.querySelector('#menu-button');
+      const menu = document.querySelector('#menu');
+      button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    </script>
   </body>
 </html>
 
@@ -340,4 +346,4 @@
       font-family: 'Titan One';
     }
     
-    </style>
+</style>
